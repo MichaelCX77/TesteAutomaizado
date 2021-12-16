@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title-detail-task">Detalhes</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/historic-tasks.css">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+    <body>
+        <div id="div-load">
+            <img id="gif-load" src="gif/gif-loading.gif" width="12%">
+        </div>
+        <div class="container-fluid">
+            <header id="div-header" class="row"></header>
+            <div id="div-main" class="row">
+                <nav id="nav-menu" class="col-sm-2">
+                </nav>
+                <div id="div-conteudo" class="col">
+                    <div class="container-fluid">
+                        <div class="row historic-tasks">
+                            <div class="col">
+                                <div class="row form-group bar-title">
+                                    <div class="col">
+                                        <a href="home" id="btn-return">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#003f7d"
+                                                class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <span class="col div-header-title">Histórico de Tarefas</span>
+                                    <div class="col"></div>
+                                </div>
+                                <div class="form-group bar-search">
+                                    <select class="form-select" id="select-type-search">
+                                        <option value="select">Selecione...</option>
+                                        <option value="card">Card</option>
+                                        <option value="task">Task</option>
+                                        <option value="description">Descrição</option>
+                                    </select>
+                                    <input type="text" id="input-search" class="form-control" placeholder="Search...">
+                                    <button id="btn-search" class="btn btn-info">Pesquisar</button>
+                                </div>
+                                <div id="div-table-historic-tasks">
+                                    <table class="table">
+                                        <thead>
+                                            <th>Card</th>
+                                            <th>Card Ini</th>
+                                            <th>Task</th>
+                                            <th>Task Ini</th>
+                                            <th style="width:100px">Task Fim</th>
+                                            <th style="width:40%">Descrição</th>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="div-pages">
+                                </div>
+                                <div id="div-default-historic">
+                                    <span>Nenhum histórico por enquanto</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/axios.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/loader.js"></script>
+        <script src="js/string-model.js"></script>
+        <script src="js/historic-tasks.js"></script>
+    </body>
+</html>

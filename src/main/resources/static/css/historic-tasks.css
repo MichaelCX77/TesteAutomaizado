@@ -1,0 +1,89 @@
+.historic-tasks{
+    max-height: 950px;
+    margin: 10px 20px 15px 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 7px 10px 7px 0px;
+    border-radius: 4px;
+}
+.bar-search{
+    margin: 40px 90px 30px 40px;
+}
+.bar-search > label, .bar-search > input {
+    display: inline;
+    margin: 0 30px;
+}
+#input-search{
+    margin-left: 10px;
+    width: 350px;
+    height: 33px !important;
+}
+#select-type-search{
+    outline-color: #8ccdd7;
+    height: 32px;
+    font-family: inherit;
+    position: relative;
+    top: -2px;
+    color: rgb(105, 105, 105);
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+#btn-search{
+    margin-left: 20px;
+    padding: 1px 10px 2px;
+}
+#btn-return{
+    position: relative;
+    top: 4px;
+}
+#div-table-historic-tasks{
+    font-size: 12px;
+    margin: 40px 40px;
+    border-collapse: unset !important;
+}
+input{
+    height: 35px !important;
+}
+.bar-search > button, select, input {
+    padding: 0px 5px;
+    height: 32px;
+    position: relative;
+    bottom:2px;
+    font-size: 0.8rem !important;
+}
+th{
+    background-color: #003f7e;
+    color: white;
+    font-size: 15px;
+    padding: 5px 15px !important;
+    font-weight: 500;
+    border: none !important;
+}
+tbody > tr:hover{
+    background-color: rgb(224, 224, 224);
+}
+td{
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+}
+.bar-title > span{
+    float: center;
+}
+#div-pages {
+    text-align: center;
+    margin: -10px 40px 15px 40px;
+}
+#div-pages > span {
+    font-weight: 400;
+    margin: 0 10px;
+    color: #003f7e;
+    font-size: 16px;
+}
+#div-default-historic {
+    display: none;
+    text-align: center;
+    color: #ababab;
+    margin: 70px 0 60px 0;
+    font-size: 17px;
+}

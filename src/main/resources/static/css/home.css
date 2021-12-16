@@ -1,0 +1,242 @@
+/* Home/Title */
+
+#div-home-title{
+    color: #003f7e;
+    background-color: white;
+    margin: 10px 30px;
+    height: 53px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#div-title {
+    padding: 4px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+#div-welcome{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 14px 25px;
+}
+
+/* Cards */
+
+.cards{
+    width: 270px;
+    min-height: 200px;
+    background-color:rgb(255, 255, 255);
+    margin: 15px;
+    border-radius: 4px;
+    border: 1px solid #c0c6ce;
+}
+#div-new-card{
+    text-align: center;
+    height: 200px;
+    padding: 53px 0px;
+}
+.btn-header-card,.btn-task, .title-task{
+    box-shadow: 0px 0px 2px 1px #bfbbcf;
+    border: 4px solid rgb(255, 255, 255);
+    padding: 8px;
+    line-height: 0;
+}
+.btn-header-card{
+    background-color: #00cfad;
+    border-radius: 9px;
+    border: 1px solid #ffffff;
+    margin: 0 4px 0 0;
+    padding: 4px;
+    position: relative;
+    top: -2px;
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    float: right;
+}
+.btn-header-card-remove{
+    background-color: rgb(255 183 102);
+}
+.btn-header-card-next{
+    margin-left: 6px;
+}
+.div-title-card{
+    text-align: center;
+    margin: 10px 0 12px 0;
+}
+.title-card{
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 0px;
+}
+
+/* Cards - Actions */
+
+.btn-header-card:focus, .btn-task:focus{
+    outline: none;
+    box-shadow: 0 0 0 1px #d4d4d4;
+}
+.btn-header-card:hover{
+    box-shadow: 0px 0px 1px 2px #919191;
+}
+.cards:hover{
+    box-shadow: -1px 1px 2px 2px #afafaf;
+}
+
+#div-new-card:active{
+    background-color: rgb(141, 228, 199);
+}
+
+/* New Card */
+
+#txtdefault_card,#txtdefault_card_adicionar{
+    color: #9aa0a7;
+    position: absolute;
+    margin: 35px 90px;
+}
+#txtdefault_card_adicionar{
+    margin: 35px 75px;
+}
+#div-new-card-define-name{
+    padding: 8px 0;
+    height: 200px;
+}
+.cancel-card{
+    width: 60px;
+    height: auto;
+    margin: 15px 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#btn-cancel-new-card{
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    background-color: #ff5050;
+    width: 50px;
+    padding: 10px 10px 10px 13px;
+    margin: 72px 6px;
+}
+#input-card-name{
+    margin-left: 12px;
+}
+
+/* New Card - Actions */
+
+#btn-cancel-new-card:hover{
+    box-shadow: 0px 0px 1px 2px #919191
+}
+#btn-cancel-new-card:active{
+    background-color: rgb(255, 67, 67);
+}
+
+/* Tasks */
+
+.title-task{
+    font-size: 11px;
+    font-weight: 700;
+    padding: 1px 8px;
+    text-decoration: none;
+    color: #003f7e;
+}
+.title-task > p{
+    margin: 15px 0;
+}
+.btn-arrow-right{
+    border-radius: 0 9px 9px 0;
+}
+.btn-task-action{
+    background-color:#dbdbdb;
+    display: none;
+}
+[name="btn-task-cancel"]{
+    background-color: rgb(255, 67, 67);
+}
+.title-task p {
+    font-family: arial,sans-serif;
+    font-size: 12px;
+}
+
+/* Tasks - Actions */
+
+.title-task:hover{
+    text-decoration: none;
+    color: rgb(0, 8, 117);
+}
+.btn-task:focus{
+    box-shadow: 0 0 3px 3px #9b9b9b;
+}
+
+/* Others */
+.separator{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+    margin-top: -5px; 
+}
+.background_red{
+    background-color: rgb(255, 67, 67);
+}
+.background_yellow{
+    background-color: rgb(255 243 100);
+}
+.background_green{
+    background-color: rgb(51 230 172)
+}
+.shadow-green {
+    box-shadow: 0px 0px 10px 4px #47d567c9;
+}
+.shadow-red {
+    box-shadow: 0px 0px 10px 4px #ff472fc9;
+}
+
+.task-move {
+    border:2px solid #08f267c9;
+    background-color: #daffe5;
+    /* background-color: rgb(44 170 255); */
+    box-shadow: #6eff8fc9 0px 0px 2px 3px;
+}
+.task:hover {
+    border-bottom: solid 2px #55aeb1;
+    border-top: solid 2px #55aeb1;
+    box-shadow: 2px 0px 1px 0px #55aeb1;
+}
+
+.input-title-card {
+    height: 32px;
+    width: 180px;
+    font-size: 19px;
+    text-align: center;
+    display: none;
+}
+
+/* .task.is-pointer-down {
+    background: rgb(129, 129, 129)129, 129, 129);
+}
+.task.is-dragging { opacity: 0.7; } */
+
+/*        Div Tools        */
+.div-tools{
+    float: right;
+    margin: 15px 0px;
+}
+.check{
+    margin:0;
+}
+.check input {
+    display: none;
+}
+#span-auto-refresh{
+    font-size: 13px;
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+.check span {
+    width: 15px;
+    height: 15px;
+    display: block;
+    background-color: #ffffff;
+    border: 3px solid #003f7e;
+    border-radius: 3px;
+}
+.check input:checked + span {
+    background-color: #33d3d8;
+}

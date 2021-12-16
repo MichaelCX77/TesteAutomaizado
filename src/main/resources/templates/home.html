@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="shortcut icon" href="img/favicon.ico" />
+    </head>
+    <body>
+        <div id="div-load">
+            <img id="gif-load" src="gif/gif-loading.gif" width="12%">
+        </div>
+        <div class="container-fluid">
+            <header id="div-header" class="row"></header>
+            <div id="div-main" class="row">
+                <nav id="nav-menu" class="col-sm-2">
+                </nav>
+                <div id="div-content" class="col">
+                    <div id="div-home-title" class="row">
+                        <div id="div-welcome" class="col">
+                        </div>
+                        <div id="div-title" class="col">
+                            <span>Cards</span>
+                        </div>
+                        <div class="col">
+                            <div class="div-tools">
+                                <span id="span-auto-refresh">Auto-refresh</span>
+                                <label class="check">
+                                    <input type="checkbox" id="check-auto-refresh">
+                                    <span></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div-cards" class="container-fluid div-content">
+                        <div class="row" id="row-cards">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/axios.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/home.js"></script>
+        <script src="js/string-model.js"></script>
+        <script src="js/loader.js"></script>
+    </body>
+</html>

@@ -1,0 +1,280 @@
+/* Title */
+
+#div-title-card, #div-jira{
+    font-size: 1.2em;
+    margin-top: 5px;
+    padding: 5px 10px 10px 16px
+}
+.div-bar-title{
+    height: 50px;
+    margin: 10px 20px -10px 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+#div-jira{
+    padding-right: 25px;
+    text-align: right;
+}
+#title-card {
+    font-size: 16px;
+    color: #ababab;
+    margin-left: 20px;
+}
+#btn-return,#btn-jira{
+    color: #888888;
+    font-size: 16px;
+    margin-top: 8px;
+}
+#btn-return{
+    position: relative;
+    top: -3px;
+}
+#div-link-jira{
+    background-color: #ffffffc0;
+    position: absolute;
+    top: 62px;
+    right: 50px;
+    padding: 8px;
+    border-radius: 5px;
+    color: rgba(124, 124, 124, 0.849) ;
+    border: 1px solid rgba(92, 92, 92, 0.397) ;
+    font-size: 13px;
+    z-index:1;
+    display: none;
+}
+#btn-confirm-jira{
+    margin: 1px 0 0 6px;
+}
+
+/* Title - Actions*/
+
+#btn-return:hover,#btn-jira:hover{
+    text-decoration: none;
+}
+
+/* Others */
+
+.div-detail-task{
+    padding: 10px 5px 10px 10px;
+    margin: 0;
+    height: 200px;
+    background-color: rgb(255, 255, 255)
+}
+
+.div-subtitle-detail{
+    width: fit-content;
+    padding: 6px 11px;
+    background-color: rgb(41, 189, 194);
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px 1px rgb(156, 156, 156);
+}
+.div-header-bloco-detail > div{
+    position: relative;
+    top: 4px;
+    display: inline;
+}
+.subtitle-detail{
+    font-size: 14px;
+    color: rgb(255, 255, 255)
+}
+.btn-edit{
+    padding: 4px 6px;
+    margin-top: -5px;
+}
+.btn-add{
+   padding: 2px 5px 5px;
+   font-family: none;
+   background-color: #3bcab2;;
+}
+.btn-cancel{
+    padding: 3px 8px 6px 7px;
+    background-color: rgb(255 183 102);
+    display: none;
+}
+.btn-confirm{
+    background-color: #00cfad;
+    padding: 3px 6px 5px 6px;
+}
+input[type=date]{
+    float: right;
+}
+.sub-body > span{
+    margin: 8px 4px 0 20px;
+}
+.sub-body > div{
+    margin: 8px 4px 0 20px;
+}
+.sub-body > textarea{
+    font-size: 12px;
+    margin: -5px 10px;
+    width: 90%;
+    height: 55px;
+}
+.sub-body > input, .sub-body > div {
+    display: inline;
+}
+
+/* Others - Actions */
+
+.div-detail-task:hover{
+    box-shadow: -1px 1px 2px 2px #afafaf;
+}
+
+/* Dates */
+
+.input-dates-task{
+    margin: -4px 20px 0 0;
+}
+.div-body-bloco-date {
+    margin-top: 40px;
+}
+.sub-body-dates{
+    font-size: 14px;
+    margin: 30px 0;
+    display: block;
+}
+
+/* Describe */
+
+#div-desc-task{
+    margin: 0 50px;
+}
+.txt-description-task{
+    display: block;
+    font-size: 14px;
+}
+#textarea-desc{
+    margin: 20px 5px;
+    height: 120px;
+    width: 97%;
+    display: none;
+}
+#btn-edit-desc-confirm,#btn-edit-date-confirm,[name=btn-edit-annotation-confirm]{
+    display: none;
+}
+#div-txt-desc{
+    margin: 25px 10px;
+}
+#div-txt-desc > span{
+    word-wrap: break-word;
+}
+
+/* Alerts */
+
+#btn-toogle-alert{
+    margin: 4px 6px;
+    float: right;
+}
+.input-dates-alert{
+    margin: -4px 20px 0 0;
+}
+.sub-body-alert{
+    font-size: 14px;
+    margin: 20px 0;
+    display: block;
+}
+label[for=btn-alert-yellow], label[for=btn-alert-red]{
+    margin-bottom: 0px;
+}
+.toggle-yellow > label, .toggle-red > label {
+    height: 13px;
+    width: 32px;
+}
+.toggle-yellow > label{
+    background: #f0ffac;
+}
+.toggle-red > label{
+    background: #ffbcb0;
+}
+.toggle-yellow > label:after, .toggle-red > label:after{
+    width: 18px;
+    height: 18px;
+}
+.toggle-yellow > input:checked ~ label:after {
+    left: 16px;
+}
+.toggle-red > input:checked ~ label:after {
+    left: 16px;
+}
+#div-alerts{
+    background-color:#ebebeb;
+}
+
+/* Annotations */
+
+#div-annotation{
+    margin-right: 50px;
+    height: auto;
+}
+#btn-new-annotation-cancel{
+    padding: 3px 8px 5px 7px;
+    background-color: rgb(255 183 102);
+}
+.div-body-bloco-annotations{
+    margin: 30px 20px 10px;
+}
+.sub-body-annotation{
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.sub-body-annotation > .div-date-annotation, .sub-body-annotation > .div-buttons-annotation{
+    margin: 4px 0 0 5px;
+}
+.div-date-annotation{
+    padding: 5px 15px;
+}
+.div-date-annotation > span {
+    color: #ababab;
+    font-size: 14px;
+    margin-left: -5px;
+}
+.sub-body-annotation > div{
+    display: inline-block;
+}
+.sub-body > .div-buttons-annotation{
+    padding-right: 0;
+    margin: 10px 0 0 0;
+}
+.div-buttons-annotation > div{
+    float: right;
+}
+.div-desc-annotation{
+    height: auto;
+    padding-bottom: 10px;
+}
+.div-desc-annotation > span {
+    word-wrap: break-word;
+}
+[name="textarea-annotation"]{
+    display: none;
+}
+#div-annotation-default{
+    color: #888888;
+    text-align: center;
+}
+[name=btn-remove-annotation]{
+    background-color: rgb(255 183 102);
+    padding: 4px 6px 6px 6px;
+    display: none;
+}
+[name="btn-edit-annotation"]{
+    display: none;
+}
+.selected_annotation{
+    border-left: 2px solid #003f7e;
+    box-shadow: 0px 0px 1px 1px #b3b3b3;
+}
+.txt-description-annotation{
+    display: block;
+}
+#input-title-task {
+    height: 34px;
+    width: 350px;
+    font-size: 19px;
+    text-align: center;
+    display: none;
+    color: #003f7e;
+}

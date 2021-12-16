@@ -1,0 +1,51 @@
+@media screen and (min-width:600px){
+    .teste{
+        min-height: 100px;
+    }
+}
+#div-title{
+    margin: 60px 0 55px 0;
+}
+#btn-entrar{
+    float: right;
+    background-color: #003f7d;
+}
+#div-options{
+    margin: 120px 0 0 0;
+}
+#div-options a{
+    display: block;
+    text-align: center;
+}
+#btn-cadastrar{
+    margin: 0 auto 15px auto;
+    background-color: #68b7ba;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+}
+#link-recSenha{
+    text-decoration: none;
+    color:#9c9c9c;
+    font-size: 14px;
+}
+.div-border{
+    background-color: #003f7d;
+    width: 30%;
+    height: 100vh;
+}
+#div-line-left{
+    float: left;
+}
+#div-line-right{
+    float: right;
+}
+.border-col{
+    padding:0;
+}
+#system-version {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    color: #979797;
+}
